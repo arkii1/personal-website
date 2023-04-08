@@ -31,15 +31,11 @@ function About() {
           <span className="text-sky-500 font-bold drop-shadow-sm">
             full-stack
           </span>{' '}
-          developer, leaning towards{' '}
-          <span className="text-sky-500 font-bold drop-shadow-sm">
-            front-end
-          </span>
-          . I&apos;ve worked in startups using{' '}
+          developer. I&apos; started my career with a start-up using{' '}
           <span className="text-sky-500 font-bold drop-shadow-sm">MERN</span>{' '}
-          stack, and soon going to be starting in{' '}
+          stack, and currently employed in a fintech company using{' '}
           <span className="text-sky-500 font-bold drop-shadow-sm">
-            fintech using JS/.Net.
+            JavaScript & .Net.
           </span>
         </animated.p>
         <animated.div

@@ -2,6 +2,7 @@ import React from 'react'
 import About from '../sections/About'
 import Hero from '../sections/Hero'
 import Carousel from '../sections/Carousel'
+import Tech from '../sections/Tech'
 import theLocNar from '../../assets/images/the-loc-nar.jpg'
 import twitterSS from '../../assets/images/twitter.png'
 import websiteSS from '../../assets/images/website.png'
@@ -57,6 +58,7 @@ function Home() {
       <section className="w-full lg:w-2/3" aria-label="projects-carousel">
         <Carousel dataArray={data} />
       </section>
+      <Tech />
     </main>
   )
 }
