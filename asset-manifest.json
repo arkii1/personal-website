@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.15f56e75.css",
+    "main.js": "/personal-website/static/js/main.18c3a652.js",
+    "static/media/the-loc-nar.jpg": "/personal-website/static/media/the-loc-nar.314cec99f414807b7e27.jpg",
+    "static/media/website.png": "/personal-website/static/media/website.cfbf21738dfa8d9b9556.png",
+    "static/media/twitter.png": "/personal-website/static/media/twitter.23c6f25cfdb754802646.png",
+    "static/media/profile.jpg": "/personal-website/static/media/profile.44b251f330eddcbc52ca.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.15f56e75.css.map": "/personal-website/static/css/main.15f56e75.css.map",
+    "main.18c3a652.js.map": "/personal-website/static/js/main.18c3a652.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f56e75.css",
+    "static/js/main.18c3a652.js"
+  ]
+}
