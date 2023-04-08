@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="personal-website" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
