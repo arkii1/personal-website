@@ -54,7 +54,7 @@ const config = {
     number: {
       density: {
         enable: true,
-        area: 10,
+        area: 30,
       },
       value: 1,
     },
