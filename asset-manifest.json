@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.1c6ba652.css",
-    "main.js": "/personal-website/static/js/main.ecdef22a.js",
+    "main.css": "/personal-website/static/css/main.68a6c54d.css",
+    "main.js": "/personal-website/static/js/main.9da043ea.js",
     "static/media/the-loc-nar.jpg": "/personal-website/static/media/the-loc-nar.314cec99f414807b7e27.jpg",
     "static/media/profile.jpg": "/personal-website/static/media/profile.44b251f330eddcbc52ca.jpg",
     "static/media/github-64.svg": "/personal-website/static/media/github-64.5a92061227f05d64940f84caa5d0c7a2.svg",
     "index.html": "/personal-website/index.html",
     "static/media/linkedin.svg": "/personal-website/static/media/linkedin.500ca81dbaf0a03db20581a052563c52.svg",
-    "main.1c6ba652.css.map": "/personal-website/static/css/main.1c6ba652.css.map",
-    "main.ecdef22a.js.map": "/personal-website/static/js/main.ecdef22a.js.map"
+    "main.68a6c54d.css.map": "/personal-website/static/css/main.68a6c54d.css.map",
+    "main.9da043ea.js.map": "/personal-website/static/js/main.9da043ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6ba652.css",
-    "static/js/main.ecdef22a.js"
+    "static/css/main.68a6c54d.css",
+    "static/js/main.9da043ea.js"
   ]
 }
