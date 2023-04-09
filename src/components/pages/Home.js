@@ -4,6 +4,7 @@ import Hero from '../sections/Hero'
 import Carousel from '../sections/Carousel'
 import Tech from '../sections/Tech'
 import theLocNar from '../../assets/images/the-loc-nar.jpg'
+import ContactForm from '../sections/ContactForm'
 
 function Home() {
   const data = [
@@ -30,8 +31,9 @@ function Home() {
 
   return (
     <main
+      id="home"
       data-src={Home}
-      className="w-full h-full flex flex-col justify-start items-center mb-10"
+      className="w-full h-full flex flex-col justify-start items-center"
     >
       <Hero />
       <About />
@@ -39,6 +41,7 @@ function Home() {
         <Carousel dataArray={data} />
       </section>
       <Tech />
+      <ContactForm />
     </main>
   )
 }
