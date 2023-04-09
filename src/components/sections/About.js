@@ -31,7 +31,7 @@ function About() {
           <span className="text-sky-500 font-bold drop-shadow-sm">
             full-stack
           </span>{' '}
-          developer. I&apos; started my career with a start-up using{' '}
+          developer. I&apos; started my career with using{' '}
           <span className="text-sky-500 font-bold drop-shadow-sm">MERN</span>{' '}
           stack, and currently employed in a fintech company using{' '}
           <span className="text-sky-500 font-bold drop-shadow-sm">
