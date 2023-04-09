@@ -12,8 +12,7 @@ function Hero() {
   return (
     <section
       data-src="Hero"
-      className="relativeshadow-sm w-full relative bg-white"
-      style={{ height: '50vh' }}
+      className="relative shadow-sm w-full bg-white h-screen"
       aria-label="Hero Section"
     >
       <div
@@ -40,7 +39,7 @@ function Hero() {
 
       <div
         aria-label="Background image container"
-        className="absolute h-full w-full bg-black/50 z-30"
+        className="absolute h-full w-full bg-black/10 z-30"
       />
       <Particle />
     </section>
