@@ -45,7 +45,7 @@ function Hero() {
           <animated.button
             style={{ ...downSpring }}
             type="button"
-            className="mt-6 w-max bg-white border-none outline-none border-solid text-sky-500 font-medium tracking-widest hover:bg-amber-400 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
+            className="mt-6 rounded w-max bg-white border-none outline-none border-solid text-sky-500 font-medium tracking-widest hover:bg-amber-400 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
             onClick={scrollToAbout}
           >
             About Me

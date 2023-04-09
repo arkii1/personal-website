@@ -51,7 +51,7 @@ function About() {
           <p className="mt-5 text-xl font-medium">Want to get in touch?</p>
           <button
             type="button"
-            className="w-max border-solid text-sky-500 font-medium tracking-widest border-sky-500 hover:bg-sky-500 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
+            className="w-max rounded border-solid text-sky-500 font-medium tracking-widest border-sky-500 hover:bg-sky-500 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
             onClick={scrollToContact}
           >
             Contact Me

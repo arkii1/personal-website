@@ -17,12 +17,12 @@ function ContactForm() {
         <label className="w-full flex flex-col justify-start items-start text-white gap-3">
           <input
             type="email"
-            className="outline-none border-sky-500 focus:border-amber-400 border-2 border-solid shadow-lg w-full rounded p-2"
+            className="outline-none border-white focus:border-amber-400 border-2 border-solid shadow-lg w-full rounded p-2"
             placeholder="What's your email?"
           />
         </label>
         <textarea
-          className="resize-none outline-none border-sky-500 focus:border-amber-400 border-2 border-solid shadow-lg w-full rounded p-2"
+          className="resize-none outline-none border-white border-solid focus:border-amber-400 border-2 shadow-lg w-full rounded p-2"
           name="postContent"
           rows={12}
           cols={40}
@@ -30,7 +30,7 @@ function ContactForm() {
         />
         <button
           type="button"
-          className="w-max outline-none border-none text-sky-500 bg-white font-medium tracking-widest hover:bg-amber-400  hover:text-white duration-300 px-6 py-3 shadow-lg"
+          className="w-max outline-none border-none rounded text-sky-500 bg-white font-medium tracking-widest hover:bg-amber-400  hover:text-white duration-300 px-6 py-3 shadow-lg"
         >
           Send
         </button>
