@@ -10,8 +10,14 @@ function About() {
   const rightSpring = useSpring(fromRight)
   const zoomInSpring = useSpring(zoomIn)
 
+  const scrollToContact = () => {
+    const element = document.getElementById('contact')
+    element.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section
+      id="about"
       data-src="About"
       className="h-full w-full max-w-screen-xl flex flex-col md:flex-row justify-center items-center gap-5 z-50"
     >
@@ -46,6 +52,7 @@ function About() {
           <button
             type="button"
             className="w-max border-solid text-sky-500 font-medium tracking-widest border-sky-500 hover:bg-sky-500 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
+            onClick={scrollToContact}
           >
             Contact Me
           </button>
