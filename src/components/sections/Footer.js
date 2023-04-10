@@ -4,7 +4,7 @@ import { ReactComponent as LinkedinIcon } from '../../assets/icons/linkedin.svg'
 
 function Footer() {
   return (
-    <div className="w-screen bg-sky-500 flex justify-center items-center gap-3 py-5">
+    <footer className="w-screen bg-sky-500 flex justify-center items-center gap-3 py-5">
       <a href="https://www.github.com/arkii1" target="_blank" rel="noreferrer">
         <GitHubIcon
           className="drop-shadow-lg fill-white hover:fill-amber-400 cursor-pointer duration-300"
@@ -21,7 +21,7 @@ function Footer() {
           height="40"
         />
       </a>
-    </div>
+    </footer>
   )
 }
 

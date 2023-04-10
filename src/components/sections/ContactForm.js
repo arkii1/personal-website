@@ -5,7 +5,7 @@ import Divider from '../common/Divider'
 
 function ContactForm() {
   return (
-    <div
+    <section
       id="contact"
       className="bg-sky-500 mt-3 py-5 w-screen flex flex-col justify-start items-center"
     >
@@ -35,7 +35,7 @@ function ContactForm() {
           Send
         </button>
       </label>
-    </div>
+    </section>
   )
 }
 

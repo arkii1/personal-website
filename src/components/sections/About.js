@@ -21,7 +21,7 @@ function About() {
       data-src="About"
       className="h-full w-full max-w-screen-xl flex flex-col md:flex-row justify-center items-center gap-5 z-50"
     >
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-start m-5">
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-start">
         <animated.h3
           className="text-xl tracking-widest text-gray-500 tracking-wider	"
           style={{ ...leftSpring }}
@@ -58,7 +58,7 @@ function About() {
           </button>
         </animated.div>
       </div>
-      <div className="w-screen flex justify-center md:w-auto md:block m-5">
+      <div className="w-screen flex justify-center md:w-auto md:block">
         <animated.img
           src={profilePic}
           alt=""

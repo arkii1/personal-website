@@ -27,13 +27,32 @@ function Home() {
         "A Where's Waldo game using Firebase and React",
       link: 'wheres-waldo',
     },
+    {
+      // eslint-disable-next-line quotes
+      title: "Where's Waldo",
+      img: theLocNar,
+      tech: [
+        'JavaScript',
+        'React',
+        'Firebase',
+        'Google Auth',
+        'JavaScript',
+        'React',
+        'Firebase',
+        'Google Auth',
+      ],
+      description:
+        // eslint-disable-next-line quotes
+        "A Where's Waldo game using Firebase and React",
+      link: 'wheres-waldo',
+    },
   ]
 
   return (
     <main
       id="home"
       data-src={Home}
-      className="w-full h-full flex flex-col justify-start items-center"
+      className="w-full h-full flex flex-col justify-start items-center gap-5"
     >
       <Hero />
       <About />
