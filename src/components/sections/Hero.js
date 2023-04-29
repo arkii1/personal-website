@@ -1,14 +1,18 @@
 import React from 'react'
 import './styles.css'
 import { useSpring, animated } from 'react-spring'
-import { fromLeft, fromRight, fromDown } from '../../utility/springConfigs'
+import {
+  fromLeft,
+  fromRight,
+  fromDownGentle,
+} from '../../utility/springConfigs'
 import Divider from '../common/Divider'
 import Particle from '../common/Particle'
 
 function Hero() {
   const leftSpring = useSpring(fromLeft)
   const rightSpring = useSpring(fromRight)
-  const downSpring = useSpring(fromDown)
+  const downSpring = useSpring(fromDownGentle)
 
   const scrollToAbout = () => {
     window.scrollTo({

@@ -1,6 +1,7 @@
 import { bounce, gentle } from 'react-spring'
 
 const config = { easing: bounce }
+const gentleConfig = { easing: gentle }
 
 const fromLeft = {
   config,
@@ -16,6 +17,12 @@ const fromRight = {
 
 const fromDown = {
   config,
+  from: { y: 100, opacity: 0.2 },
+  to: { y: 0, opacity: 1 },
+}
+
+const fromDownGentle = {
+  gentleConfig,
   from: { y: 100, opacity: 0.2 },
   to: { y: 0, opacity: 1 },
 }
@@ -68,4 +75,5 @@ export {
   longFadeIn,
   fromDownDelayed,
   buttonPulse,
+  fromDownGentle,
 }
