@@ -1,18 +1,13 @@
 import React from 'react'
 import './styles.css'
 import { useSpring, animated } from 'react-spring'
-import {
-  fromLeft,
-  fromRight,
-  fromDownGentle,
-} from '../../utility/springConfigs'
+import { fromLeft, fromRight } from '../../utility/springConfigs'
 import Divider from '../common/Divider'
 import Particle from '../common/Particle'
 
 function Hero() {
   const leftSpring = useSpring(fromLeft)
   const rightSpring = useSpring(fromRight)
-  const downSpring = useSpring(fromDownGentle)
 
   const scrollToAbout = () => {
     window.scrollTo({
@@ -47,9 +42,9 @@ function Hero() {
             Web Developer
           </animated.h2>
           <animated.button
-            style={{ ...downSpring }}
+            style={{ ...rightSpring }}
             type="button"
-            className="mt-6 rounded w-max bg-white border-none outline-none border-solid text-sky-500 font-medium tracking-widest hover:bg-amber-400 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
+            className="opacity-0 mt-6 rounded w-max bg-white border-none outline-none border-solid text-sky-500 font-medium tracking-widest hover:bg-amber-400 hover:text-white duration-300 border-2 px-6 py-3 shadow-lg"
             onClick={scrollToAbout}
           >
             About Me

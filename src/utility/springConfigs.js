@@ -45,6 +45,12 @@ const longFadeIn = {
   to: { opacity: 1 },
 }
 
+const fadeIn = {
+  config,
+  from: { opactiy: 0 },
+  to: { opacity: 1 },
+}
+
 const fromDownDelayed = {
   config: { easing: bounce },
   delay: 2500,
@@ -76,4 +82,5 @@ export {
   fromDownDelayed,
   buttonPulse,
   fromDownGentle,
+  fadeIn,
 }
